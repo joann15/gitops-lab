@@ -1,2 +1,2 @@
 def hello():
-    return "Hello from GitOps-lab with Argo CD!
+    return "Hello from GitOps-lab with Argo CD!"

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gitops-lab
-          image: jmm4860/gitops-lab:vbroken
+          image: jmm4860/gitops-lab:vfixed
           imagePullPolicy: Always
           command: ["python", "-u", "app.py"]
           ports:
