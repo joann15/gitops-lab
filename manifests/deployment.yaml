@@ -16,6 +16,5 @@ spec:
         - name: gitops-lab
           image: jmm4860/gitops-lab:vfixed
           imagePullPolicy: Always
-          command: ["python", "-u", "app.py"]
           ports:
             - containerPort: 8080
